@@ -98,6 +98,8 @@
                             }else{
                                 swal("Oops", result.msg, "info");
                             }
+                        }).fail(() => {
+                            swal("Oops", "Verifique o servidor ou administrador do sistema", "info");
                         });
 
                     }

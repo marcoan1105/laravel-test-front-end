@@ -91,7 +91,7 @@
                                 }
                             }
                         }).fail(function(jqXHR, textStatus, msg) {
-                            swal("Opss", "Usuário ou senha inválida.", "error");
+                            swal("Oops", "Verifique o servidor ou administrador do sistema", "info");
                         });
                     },
                     keyUpEmail(e){
