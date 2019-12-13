@@ -25,6 +25,8 @@
                             window.location.replace("login.php");
                         }
                     }
+                }).fail(() => {
+                    window.location.replace("login.php");
                 });
             }else{
                 window.location.replace("login.php");
@@ -40,7 +42,9 @@
                     data: {
                         token: access_token
                     }
-                }).done((result) => {
+                }).done(() => {
+                    window.location.replace("login.php");
+                }).fail(() => {
                     window.location.replace("login.php");
                 });
             }
