@@ -108,6 +108,8 @@
                     if(result.status){
                         this.list();
                         swal("Sucesso", "Cor deletada com sucesso.", "success");
+                    }else{
+                        swal("Oops", result.msg, "info");
                     }
                 });
             }
