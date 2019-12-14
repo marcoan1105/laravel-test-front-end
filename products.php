@@ -178,7 +178,7 @@
                     }).done((result) => {
                         if(result.status){
                             this.listProducts();
-                            swal("Sucesso", "Produto excluido com sucesso", "info");
+                            swal("Sucesso", "Produto excluido com sucesso", "success");
                         }else{
                             swal("Oops", result.msg, "info");
                         }

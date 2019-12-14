@@ -154,7 +154,9 @@
                     headers: config.headers
                 }).done((result) => {
                     this.list();
-                    if(!result.status){
+                    if(result.status){
+                        swal("Sucesso", "Usuario deletado com sucesso.", "success");
+                    }else{
                         swal("Oops", result.msg, "info");
                     }
                 });
