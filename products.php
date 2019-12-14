@@ -17,7 +17,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-10"></div>
+            <div class="col-8"></div>
+            <div class="col-2">
+                <br>
+                <button class="btn btn-warning btn-block" @click="clear">Cancelar</button>
+            </div>
             <div class="col-2">
                 <br>
                 <button class="btn btn-primary btn-block" @click="save()">Salvar</button>

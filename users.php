@@ -32,7 +32,11 @@
             <div class="col-4"></div>
         </div>
         <div class="row">
-            <div class="col-6"></div>
+            <div class="col-4"></div>
+            <div class="col-2">
+                <br>
+                <button class="btn btn-warning btn-block" @click="clear">Cancelar</button>
+            </div>
             <div class="col-2">
                 <br>
                 <button class="btn btn-success btn-block" @click="save">Salvar</button>
